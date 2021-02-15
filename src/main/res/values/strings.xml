@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MobileCourseWork</string>
+    <string name="guess_the_breed">Identify the Breed</string>
+    <string name="guess_the_dog">Identify the Dog</string>
+    <string name="search_breed">Search Dog Breeds</string>
+
+
+    <string name="breed_prompt">Choose the breed</string>
+    <string name="question_number">Question #1</string>
+    <string name="submit_btn_name">Submit</string>
+    <string name="score_lable">Score: 0</string>
+    <string name="missed_lable">Missed: 0</string>
+    <string name="submit">Submit</string>
+    <string name="enter_breed_name">Enter Breed name</string>
+    <string name="stop">Stop</string>
+
+
+    <string-array name="breed_names_array">
+        <item>None</item>
+        <item>Boston bull</item>
+        <item>Briard</item>
+        <item>Chihuahua</item>
+        <item>Clumber</item>
+        <item>Collie</item>
+        <item>Golden retriever</item>
+        <item>Irish terrier</item>
+        <item>Lhasa</item>
+        <item>Pug</item>
+        <item>Vizsla</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

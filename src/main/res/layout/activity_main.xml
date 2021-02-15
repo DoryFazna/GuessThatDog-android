@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:padding="5dp">
+
+
+
+        <TextView
+            android:id="@+id/game_Topic"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="player"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+
+             />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="playPause"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode" />
+
+
+
+
+        <Button
+            android:id="@+id/btn_loginSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textColor="@color/white"
+            android:shadowColor="@color/white"
+            android:background="@color/blue"
+            android:layout_weight="0"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+
+        android:background="@color/yellow">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="208dp"
+            android:layout_height="209dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+
+            android:src="@drawable/transparentdoggy"
+            android:background="@drawable/image_border_intro"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_breed"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:onClick="openGuessTheBreed"
+        android:text="@string/guess_the_breed"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="25sp"
+         />
+
+
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button_dog"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:onClick="openGuessTheDog"
+        android:text="@string/guess_the_dog"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:onClick="openSearchBreed"
+        android:text="@string/search_breed"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button_breed2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:onClick="openScoreBoard"
+        android:text="View scoreboard"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue">
+
+    <Switch
+        android:id="@+id/switch_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="60sp"
+        android:text="timer"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
